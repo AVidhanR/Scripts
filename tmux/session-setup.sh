@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables for session names and project path for easy customization.
-PROJECT_PATH="~/Documents/GitHub/Project"
+PROJECT_PATH="~/Documents/GitHub/Scripts"
 SESSION_EDITOR="Editor"
 SESSION_DB="OracleDB"
 SESSION_TERMINAL="Terminal"
