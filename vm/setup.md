@@ -48,3 +48,9 @@ to install `oh-my-bash`
 ```sh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ```
+
+few `oh-my-bash` themes i liked;
+
+1. pro [link](https://github.com/ohmybash/oh-my-bash/wiki/Themes#pro)
+2. rr [link](https://github.com/ohmybash/oh-my-bash/wiki/Themes#rr)
+3. vscode [link](https://github.com/ohmybash/oh-my-bash/wiki/Themes#vscode)
