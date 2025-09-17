@@ -33,5 +33,10 @@ $Name.Length
 # To know the Properties for the Above $Name Object
 $Name | Select-Object -Property *
 
-Write-Host "Below are the available methods for $Name.GetType()"
+Write-Host "Below are the available methods for $Name (String)"
 Get-Member -InputObject $Name
+
+Write-Host ""
+# Reading input
+$InputVar = Read-Host -Prompt "Enter any value: "
+Write-Host "Entered Value: $InputVar"

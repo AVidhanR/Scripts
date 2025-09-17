@@ -14,5 +14,23 @@ $NameWithBirthdays = @{
 
 $NameWithBirthdays
 
-Write-Host "Type: "
+Write-Host ""
 $NameWithBirthdays.GetType()
+
+Write-Host "Add data into the hastable"
+$NameWithBirthdays.Add("VinJ", "10-10-2000")
+$NameWithBirthdays
+
+Write-Host ""
+Write-Host "Modify Existing data"
+$NameWithBirthdays.Set_Item("VinJ", "09-09-2000")
+$NameWithBirthdays
+
+Write-Host ""
+Write-Host "Specific Data for eg: Vidhan's"
+$NameWithBirthdays["Vidhan"]
+
+Write-Host ""
+Write-Host "Remove Items in Hashtable for eg: Let's remove VinJ's"
+$NameWithBirthdays.Remove("VinJ")
+$NameWithBirthdays
