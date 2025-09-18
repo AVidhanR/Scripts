@@ -12,4 +12,3 @@ Refs:
 1. [github.com/wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 2. [github.com/rose-pine/neovim](https://github.com/rose-pine/neovim)
 3. [github.com/nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-4. 
