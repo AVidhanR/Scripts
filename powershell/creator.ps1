@@ -1,5 +1,5 @@
 Function Create-File {
-	Param()
+	Param() # No need but, I like it; 
 	$FileName = Read-Host -Prompt "Enter file name: "
 	$FileExtension = Read-Host -Prompt "Enter file extension: "
 	$CurrentPath = pwd
@@ -9,7 +9,7 @@ Function Create-File {
 }
 
 Function Create-Directory {
-	Param()
+	Param() # No need but, I like it; 
 	$DirectoryName = Read-Host -Prompt "Enter directory name: "
 	$CurrentPath = pwd
 	$Response = New-Item -Path $CurrentPath\$DirectoryName -Type "Dir"
@@ -50,7 +50,6 @@ Do {
 			Write-Host "";
 			Break 
 		}
-	
 	}
 } While ($Choice -ge 1 -and $Choice -le 2)
 # Auto Exits if not available in the above number range.
