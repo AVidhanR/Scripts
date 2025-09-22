@@ -1,4 +1,4 @@
-## Other imp Commands
+## Other Important Commands
 
 Few most commonly used commands in the `powershell` environment that one would use in `bash` environment.
 
