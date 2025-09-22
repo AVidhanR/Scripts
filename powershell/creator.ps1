@@ -4,17 +4,17 @@ Function Create-File {
 	$FileExtension = Read-Host -Prompt "Enter file extension: "
 	$CurrentPath = pwd
 	$Response = New-Item -Path $CurrentPath\$FileName.$FileExtension -Type "File" -Value ""
-	Return $Response
 	Clear
+	Return $Response
 }
 
 Function Create-Directory {
 	Param() # No need but, I like it; 
 	$DirectoryName = Read-Host -Prompt "Enter directory name: "
 	$CurrentPath = pwd
-	$Response = New-Item -Path $CurrentPath\$DirectoryName -Type "Dir"
-	Return $Response
+	$Response = New-Item -Path $CurrentPath\$DirectoryName -Type Directory
 	Clear
+	Return $Response
 }
 
 # ----------------------------------------
@@ -31,7 +31,7 @@ Do {
 	Write-Host "3. Exit"
 	Write-Host ""
 
-	$Choice = Read-Host -Prompt "Enter your choice: "
+	$Choice = Read-Host -Prompt "Enter your choice"
 	Write-Host ""
 	
 	Switch ($Choice) {
