@@ -16,7 +16,7 @@ But, sometimes it is not commenting as the above base; it's commenting as the Co
 git commit --amend --no-edit --author="AVidhanR <my-email-id@gmail.com>"
 # '<' and '>' should be there!
 
-git push --force-with-lease
+git push --force
 ```
 
 ---
